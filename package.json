@@ -1,24 +1,23 @@
 {
-  "name": "d3practice",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
+  "devDependencies": {
+    "@rollup/plugin-buble": "latest",
+    "rollup": "^2.70.1"
+  },
+  "name": "d3practice",
+  "description": "A program that follows your mouse with a circle.",
+  "version": "1.0.0",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PatrickhCahill/d3practice.git"
   },
-  "author": "Patrick Cahill",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PatrickhCahill/d3practice/issues"
   },
-  "homepage": "https://github.com/PatrickhCahill/d3practice#readme",
-  "dependencies": {
-    "d3": "^7.4.3",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  }
+  "homepage": "https://github.com/PatrickhCahill/d3practice#readme"
 }
